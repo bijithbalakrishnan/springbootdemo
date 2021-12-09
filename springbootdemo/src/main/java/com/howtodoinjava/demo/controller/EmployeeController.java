@@ -46,6 +46,7 @@ public class EmployeeController {
 	public String helloWorld() {
 
 		String response = "Hello" + new Date();
+		System.out.println("Test");
 
 		LOG.info("/elkdemo - &gt; " + response);
 
